@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 var bot = new Discord.Client();
-/*
+
 const low=require('lowdb');
 const FileSync=require('lowdb/adapters/FileSync');
 const adapter=new FileSync('database.json');
@@ -10,7 +10,7 @@ const db=low(adapter);
 
 db.defaults({histoires: []})
     .write()
-*/
+
     var prefixe=("/");
     var randnum=0;
     bot.on('ready', () => {
@@ -65,7 +65,7 @@ db.defaults({histoires: []})
                 }
                 console.log(randnum);
             }
-/*
+
             if (!message.content.startsWith(prefixe)) return;
             var args=message.content.substring(prefixe.length).split(" ");
 
@@ -83,7 +83,7 @@ db.defaults({histoires: []})
                 .write();
                 break;
             }
-*/
+
 
     });
 
