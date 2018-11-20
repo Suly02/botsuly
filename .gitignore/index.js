@@ -40,7 +40,9 @@ db.defaults({histoires: []})
             if (message.content=== "Heil"){ //répond en mentionnant la personne avec un @
                 message.reply("Sieg Heil my Führer");
             }
-
+            if (message.content=== prefixe+"HeilTonin"){ //répond en mentionnant la personne avec un @
+                message.reply("Tonin n'est pas un vrai, au bûcher pd");
+            }
             if (message.content === prefixe+"help"){
                 var help_embed= new Discord.RichEmbed()
                 .setColor('D1F22C')
