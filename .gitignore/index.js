@@ -14,7 +14,7 @@ db.defaults({histoires: []})
     var prefixe=("/");
     var randnum=0;
     bot.on('ready', () => {
-        bot.user.setPresence({game: { name: 'se triturer la bistouquette', type: 0 }});
+        bot.user.setPresence({game: { name: 'brûler du feuj', type: 0 }});
         bot.user.setUsername("Führer");
         console.log("Bot Ready");
     });
